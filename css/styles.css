@@ -58,7 +58,17 @@ header nav ul li a {
     color: #000;
     text-decoration: none;
     font-size: 1.2rem;
-    transition: color 0.3s ease, outline-color 0.3s ease, transform 0.3s esse;
+    transition: color 0.3s ease, outline-color 0.3s ease, transform 0.3s ease;
+}
+
+
+header a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, outline-color 0.3s ease, transform 0.3s ease;
+    justify-content: left;
+    display: flex;
 }
 
 header nav ul li a:hover {
