@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const password2 = document.getElementById('password2').value;
         const email = document.getElementById('email').value;
 
-        validateForm(username, password, email);
+        validateForm(username, password, password2, email);
     });
 
     function validateForm(username, password, password2, email) {
