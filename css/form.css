@@ -51,6 +51,24 @@ form button:active {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0)
 }
 
+div.passwordvision {
+    position: relative;
+    display: inline-block;
+}
+
+div.passwordvision input {
+    padding-right: 30px;
+}
+
+div.passwordvision img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    user-select: none;
+}
+
 @media (max-width: 768px) {
     form input {
         max-width: 100px;

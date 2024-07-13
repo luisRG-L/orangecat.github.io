@@ -21,3 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 })
+
+function tooglePassword(fieldId, imgId) {
+    const passwordField = document.getElementById(fieldId);
+    const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
+    passwordField.setAttribute('type', type);
+    const image = document.getElementById(imgId);
+    const img = image.getAttribute('src') === '../../assets/show.svg' ? '../../assets/hind.svg': '../../assets/show.svg'
+    image.setAttribute('src', img);
+}
