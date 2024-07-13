@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (validateForm(username, password, email)) {
             alert('Registro exitoso');
-            registrationForm.reset();
+            form.reset();
         } else {
             alert('Por favor complete todos los campos correctamente');
         }
