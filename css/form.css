@@ -26,6 +26,11 @@ form input {
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5)
+}
+
+form input:active {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0)
 }
 
 form button {
@@ -39,4 +44,9 @@ form button {
     transition: background-color 0.3s ease;
     min-width: 150px;
     min-height: 60px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5)
+}
+
+form button:active {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0)
 }

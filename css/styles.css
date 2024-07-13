@@ -72,6 +72,11 @@ header a {
 
 header a img {
     width: 60px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5)
+}
+
+header a img:active {
+    box-shadow: 5px 5px 5px rgba(0,0,0,0)
 }
 
 header nav ul li a:hover {
