@@ -71,6 +71,10 @@ header a {
     display: flex;
 }
 
+header a img {
+    width: 60px;
+}
+
 header nav ul li a:hover {
     color: #fff;
     outline-color: #fff;
@@ -125,5 +129,7 @@ body.form main form {
 }
 
 @media (max-width: 768px) {
-
+    header a img {
+        width: 30px;
+    }    
 }
