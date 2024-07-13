@@ -50,3 +50,9 @@ form button {
 form button:active {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0)
 }
+
+@media (max-width: 768px) {
+    form input {
+        max-width: 100px;
+    }
+}

@@ -6,20 +6,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
+        const password2 = document.getElementById('password2').value;
         const email = document.getElementById('email').value;
 
-        if (validateForm(username, password, email)) {
-            alert('Registro exitoso');
-            form.reset();
-        } else {
-            alert('Por favor complete todos los campos correctamente');
-        }
+        validateForm(username, password, email);
     });
 
-    function validateForm(username, password, email) {
-        if (username && password && email) {
-            return true;
+    function validateForm(username, password, password2, email) {
+        if (password != password2){
+            alert("Las contraseñas deben coincidir")
+        }else{
+            alert('Registro exitoso');
+            form.reset();
         }
-        return false;
     }
 })
