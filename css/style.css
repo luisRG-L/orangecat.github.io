@@ -1,0 +1,55 @@
+/*HEADERS*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkslateblue;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    position: relative;
+    background-color: darkslategray;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+nav ul li.orange  {
+    border-top: 10px solid orange;
+}
+
+nav ul li.orange:hover {
+    border-top: 10px solid orangered;
+}
+
+nav ul li.green  {
+    border-top: 10px solid #82B043;
+}
+
+nav ul li.green:hover {
+    border-top: 10px solid green;
+}
+
+nav ul li:hover {
+    background-color: darkblue;
+    background: linear-gradient(to bottom, darkslategray, darkslateblue )
+}
